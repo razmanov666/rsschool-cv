@@ -21,8 +21,8 @@
 *Level of skill from 1 to 5*
 
 ## 5.Education
-    *4th year student of BSU
-    *Took EPAM courses, which has name "Building modern web with RUBY in clouds, 
-    but did not write a project, unfortunately
+# *4th year student of BSU
+# *Took EPAM courses, which has name "Building modern web with RUBY in clouds, 
+# but did not write a project, unfortunately
 ## 6."London is the capital of Great Britain"
-    Level of English: A2/A2+ (last test A2).
+# Level of English: A2/A2+ (last test A2).
