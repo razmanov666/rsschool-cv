@@ -1,0 +1,43 @@
+body {
+    color: white;
+    padding: 0 5px;
+    font-size: 18px;
+    background: url('../img/background.jpg') fixed;
+}
+
+ul {
+    font-style: italic; 
+}
+
+.form-text, .footer-left, .footer-right, .contacts {
+    padding: 30px;
+    border-radius: 40px;
+    border: 2px solid lightslategray;
+    background-color: darkcyan;
+}
+
+.footer-left {
+    position: absolute;
+    margin-right: auto;
+    width: 25%;
+    padding: 35px;
+}
+
+.form-text, .contacts {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-text {
+    width: 70%;
+}
+
+.contacts {
+    width: 20%;
+}
+
+.footer-right {
+    margin-left: auto;
+    width: 20%;
+    padding: 35px;
+}
