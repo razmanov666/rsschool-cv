@@ -1,43 +1,57 @@
 body {
     color: white;
-    padding: 0 5px;
-    font-size: 18px;
-    background: url('../img/background.jpg') fixed;
+    padding: 0 0px;
+    padding-bottom: 100px;
+    font-size: 16px;
+    background: url('../img/космос.jpg') fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 ul {
     font-style: italic; 
 }
 
-.form-text, .footer-left, .footer-right, .contacts {
+footer {
+    text-align: center;
+}
+
+.form-text, .footer-center, .footer-left, .footer-right, .contacts {
     padding: 30px;
     border-radius: 40px;
     border: 2px solid lightslategray;
-    background-color: darkcyan;
+    background-color: rgba(2, 195, 209, 0.85);
 }
 
-.footer-left {
-    position: absolute;
-    margin-right: auto;
-    width: 25%;
-    padding: 35px;
-}
-
-.form-text, .contacts {
+.form-text, .contacts, .footer-center {
     margin-left: auto;
     margin-right: auto;
 }
 
 .form-text {
-    width: 70%;
+    width: 50%;
 }
 
 .contacts {
     width: 20%;
 }
 
+.footer-center {
+    position: absolute;
+    width: 24%;
+    padding: 35px;
+    margin-left: 35%;
+}
+
+.footer-left {
+    position: absolute;
+    width: 24%;
+    padding: 35px;
+}
+
 .footer-right {
-    margin-left: auto;
-    width: 20%;
+    position: absolute;
+    margin-left: 70%;
+    width: 24%;
     padding: 35px;
 }
