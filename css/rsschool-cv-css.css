@@ -1,0 +1,72 @@
+body {
+    color: white;
+    background-size: 100%;
+    padding: 0 0px;
+    padding-bottom: 100px;
+    font-size: 17px;
+    background: url('../img/On_top_of_the_Rubihorn_by_Matthias_Niess.jpg') fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+ul {
+    font-style: italic; 
+}
+
+table {
+    width: 50%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    vertical-align: text-top;
+    width: 50%;
+    height: 30%; 
+}
+
+footer {
+    text-align: center;
+}
+
+.form-text, td, .footer-center, .footer-left, .footer-right, .contacts {
+    padding: 30px;
+    border-radius: 40px;
+    margin: 10px;
+    border: 2px solid lightslategray;
+    background-color: rgba(54, 127, 133, 0.85);
+}
+
+.form-text, .contacts, .footer-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-text {
+    width: 30%;
+}
+
+.contacts {
+    width: 20%;
+}
+
+.footer-center {
+    position: absolute;
+    width: 24%;
+    padding: 35px;
+    margin-left: 35%;
+}
+
+.footer-left {
+    position: absolute;
+    width: 24%;
+    padding: 35px;
+}
+
+.footer-right {
+    position: absolute;
+    margin-left: 70%;
+    width: 24%;
+    padding: 35px;
+}
